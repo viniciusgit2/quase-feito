@@ -11,8 +11,8 @@ import Botoes from './Botoes'
 const Home: NextPage = () => {
   return (
 
-    <div className='border 10px border-r-emerald-600'>
-      <h1 className='text-lime-500'>dados do projeto</h1>
+    <div className={'bg-black'}>
+      <h1 className='text-red-600'>dados do projeto</h1>
       <h2><Cliente />
       </h2>
       <h3><Formulario /></h3>
