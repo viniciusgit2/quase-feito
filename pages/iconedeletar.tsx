@@ -1,4 +1,4 @@
-export default function  iconedeletar(){
+export default function  Iconedeletar(){
 
 
    return(
