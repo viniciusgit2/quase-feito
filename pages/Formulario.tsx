@@ -7,8 +7,8 @@ export default function Formulario (){
     return(
         <div className="bg-red-600">
           
-        <><Entrada type texto={"nome"} onchange></Entrada><Entrada texto="idade"tipo={"number"}></Entrada></>
-      
+        <><Entrada tipo texto={"nome"} onchange></Entrada><Entrada texto="idade"tipo={"number"}/></>
+    
         </div>
             )
             }
