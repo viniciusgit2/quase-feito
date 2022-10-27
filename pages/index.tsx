@@ -7,7 +7,7 @@ import Formulario from './Formulario'
 import Tabela from './Tabela'
 import Layoout from './Layout'
 import { useState } from 'react'
-import Cliente from './Teste1'
+
 
 
 const Home: NextPage = () => {
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       <h1 className='px-5 py-2xl'> </h1>
 <h1><Layoout titulo='cadastrosimples'></Layoout></h1>
 <span>qq</span>
-<h2> <Tabela {...Cliente} ></Tabela></h2>
+<h2> <Tabela  ></Tabela></h2>
       <h3><Formulario /></h3>
 
     </div>

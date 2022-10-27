@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import Cliente from "./Teste1";
+
 import Tabela from "./Tabela";
 import Formulario from "./Formulario";
 
