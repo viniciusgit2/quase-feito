@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Cliente from "./Cliente";
+import Cliente from "./Teste1";
 import Entrada from "./Entrada";
 
 export default function Formulario (){

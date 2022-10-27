@@ -1,13 +1,14 @@
-import Cliente from "./Cliente"
+import Cliente from "./Teste1"
  import Iconedeletar from "./iconedeletar"
  import Iconeeditar from "./Iconeeditar"
+import Home from "./index"
 
 export default function Tabela(){
     return(
 <div className="bg-slate-200"{...renderizarcabecalho}>
 
 <table><tr><td>nome</td><td>id</td><>idade</></tr><tr><Cliente/></tr></table>
-<button className={"bg-lime-400"}>{renderizardados}<Iconeeditar/></button>
+<button onClick={Home} className={"bg-lime-400"}>{renderizardados}<Iconeeditar/></button>
 <button className={"bg-red-700"}> <Iconedeletar/></button>
 </div>
     )
@@ -22,18 +23,22 @@ export default function Tabela(){
             </div>
         )
         }
-        function renderizardados(){
-            return Cliente?.map((Cliente)=>{
-                return(continua)
-            })
+        function renderizardados(Cliente){
+            return Cliente?.map((Cliente));{
+            
             }
-   
         
- function continua(Cliente){
-    <div>
-     <tr key={Cliente}></tr> 
-     <td className="text-left p-4">{Cliente}</td>   
-    
-    </div>
-  }
+        }
+        return(
+            <div>
+       <td>{Cliente}</td>   
+     
+       </div>
+        )
+        
+        
 
+  
+  
+
+        
